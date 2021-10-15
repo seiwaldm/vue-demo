@@ -16,7 +16,7 @@ export default {
           return "Oink!";
         },
       },
-      isCute: true,
+      isCute: false,
     };
   },
 };

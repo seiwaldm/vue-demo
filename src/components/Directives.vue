@@ -33,7 +33,7 @@ export default {
       product: {
         name: "Socks",
         inStock: true,
-        onSale: true,
+        onSale: false,
       },
     };
   },

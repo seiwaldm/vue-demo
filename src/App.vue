@@ -2,14 +2,21 @@
   <Expressions></Expressions>
   <hr />
   <Directives></Directives>
+  <hr />
+  <Binding></Binding>
+  <hr />
+  <list-rendering></list-rendering>
 </template>
 
 <script>
 import Expressions from "./components/Expressions.vue";
 import Directives from "./components/Directives.vue";
+import Binding from "./components/Binding.vue";
+import ListRendering from "./components/ListRendering.vue";
+
 export default {
   name: "App",
-  components: { Expressions, Directives },
+  components: { Expressions, Directives, Binding, ListRendering },
 };
 </script>
 
