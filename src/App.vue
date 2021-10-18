@@ -6,6 +6,8 @@
   <Binding></Binding>
   <hr />
   <list-rendering></list-rendering>
+  <hr />
+  <actions-events></actions-events>
 </template>
 
 <script>
@@ -13,10 +15,17 @@ import Expressions from "./components/Expressions.vue";
 import Directives from "./components/Directives.vue";
 import Binding from "./components/Binding.vue";
 import ListRendering from "./components/ListRendering.vue";
+import ActionsEvents from "./components/ActionsEvents.vue";
 
 export default {
   name: "App",
-  components: { Expressions, Directives, Binding, ListRendering },
+  components: {
+    Expressions,
+    Directives,
+    Binding,
+    ListRendering,
+    ActionsEvents,
+  },
 };
 </script>
 
